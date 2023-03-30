@@ -103,5 +103,6 @@ class SvatkyTest {
   void smazatSvatek() {
     //TODO Zkontrolovat, že po smazání bude počet svátků odpovídat novému počtu.
     assertEquals(36,37);
+    assertNotEquals(39,37);
   }
 }
